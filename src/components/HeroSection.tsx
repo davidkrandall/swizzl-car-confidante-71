@@ -12,11 +12,6 @@ const HeroSection = () => {
           <p className="text-xl md:text-2xl mb-8 text-blue-100">
             Turn browsers into buyers who arrive ready to say yes. Engage leads that never respond.
           </p>
-          <div className="mb-12">
-            <Button className="bg-teal-500 hover:bg-teal-600 text-lg py-6 px-8">
-              Book a Demo
-            </Button>
-          </div>
           
           <div className="mt-10 p-6 bg-white/10 rounded-lg backdrop-blur-sm border border-white/20">
             <blockquote className="italic text-lg">
@@ -33,3 +28,4 @@ const HeroSection = () => {
 };
 
 export default HeroSection;
+
