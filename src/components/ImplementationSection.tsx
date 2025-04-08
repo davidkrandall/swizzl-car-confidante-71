@@ -37,6 +37,12 @@ const ImplementationSection = () => {
                 </div>
                 <span>We send enriched car buyer data back to your dealership CRM</span>
               </li>
+              <li className="flex items-start">
+                <div className="w-6 h-6 bg-teal-500 bg-opacity-10 rounded-full flex items-center justify-center mr-3 mt-0.5">
+                  <span className="text-teal-500 font-bold text-sm">✓</span>
+                </div>
+                <span>Sales people love it</span>
+              </li>
             </ul>
             
             <div className="mt-8 bg-blue-50 p-6 rounded-lg border border-blue-100">
