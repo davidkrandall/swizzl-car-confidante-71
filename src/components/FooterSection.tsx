@@ -6,7 +6,7 @@ const FooterSection = () => {
   return (
     <footer className="bg-blue-900 text-white py-16 px-4 sm:px-6 lg:px-8">
       <div className="container mx-auto text-center">
-        <h2 className="text-3xl font-bold mb-6">Ready to transform your sales process to meet customers on their terms?</h2>
+        <h2 className="text-3xl font-bold mb-6">Ready to meet customers where they are so that they will engage with you?</h2>
         <Button className="bg-teal-500 hover:bg-teal-600 text-white text-lg py-6 px-8">
           <Mail className="h-5 w-5 mr-2" />
           <a href="mailto:andrew@swizzl.ai">Contact Us</a>
