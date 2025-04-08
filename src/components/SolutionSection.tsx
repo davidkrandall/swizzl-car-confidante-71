@@ -1,5 +1,5 @@
 
-import { CheckCircle2, ArrowDownCircle } from "lucide-react";
+import { CheckCircle2, ArrowDownCircle, ArrowUp } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
 
@@ -47,19 +47,44 @@ const SolutionSection = () => {
             <div className="border border-blue-700 rounded-lg p-5 bg-blue-800 hover:bg-blue-700 transition-colors duration-300">
               <h4 className="font-bold text-xl mb-2">More car buyers come in</h4>
               <Separator className="bg-blue-600 my-3" />
-              <p className="text-blue-100 text-sm">KPIs: Leads engaging, test drives booked</p>
+              <div className="text-blue-100 text-sm">
+                <div className="flex items-center gap-2 mb-1">
+                  <ArrowUp className="h-4 w-4 text-green-400" />
+                  <span>Leads engaging</span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <ArrowUp className="h-4 w-4 text-green-400" />
+                  <span>Test drives booked</span>
+                </div>
+              </div>
             </div>
             
             <div className="border border-blue-700 rounded-lg p-5 bg-blue-800 hover:bg-blue-700 transition-colors duration-300">
               <h4 className="font-bold text-xl mb-2">Easier to convert</h4>
               <Separator className="bg-blue-600 my-3" />
-              <p className="text-blue-100 text-sm">KPI: Vehicle sale conversion rate</p>
+              <div className="flex items-center gap-2 text-blue-100 text-sm">
+                <ArrowUp className="h-4 w-4 text-green-400" />
+                <span>Vehicle sale conversion rate</span>
+              </div>
             </div>
             
             <div className="border border-blue-700 rounded-lg p-5 bg-blue-800 hover:bg-blue-700 transition-colors duration-300">
               <h4 className="font-bold text-xl mb-2">More customer trust</h4>
               <Separator className="bg-blue-600 my-3" />
-              <p className="text-blue-100 text-sm">KPIs: Service sales, repeat customers, trade-ins</p>
+              <div className="text-blue-100 text-sm">
+                <div className="flex items-center gap-2 mb-1">
+                  <ArrowUp className="h-4 w-4 text-green-400" />
+                  <span>Service sales</span>
+                </div>
+                <div className="flex items-center gap-2 mb-1">
+                  <ArrowUp className="h-4 w-4 text-green-400" />
+                  <span>Repeat customers</span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <ArrowUp className="h-4 w-4 text-green-400" />
+                  <span>Trade-ins</span>
+                </div>
+              </div>
             </div>
           </div>
         </div>
