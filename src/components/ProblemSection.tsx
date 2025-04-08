@@ -37,7 +37,7 @@ const ProblemSection = () => {
         <div className="mt-12 bg-gray-100 border border-gray-300 rounded-lg p-6">
           <h3 className="text-2xl font-bold text-center mb-4 text-gray-800">It's Getting Worse</h3>
           <div className="text-center mb-4">
-            <p className="text-lg text-gray-700 font-medium">The auto dealership sales landscape is rapidly deteriorating as traditional methods fail in the digital age.</p>
+            <p className="text-lg text-red-700 font-medium">The auto dealership sales landscape is rapidly deteriorating as traditional methods fail in the digital age.</p>
           </div>
           <ul className="grid grid-cols-1 md:grid-cols-1 gap-4 max-w-2xl mx-auto">
             <li className="flex items-start">
