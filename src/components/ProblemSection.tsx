@@ -67,11 +67,23 @@ const ProblemSection = () => {
         </div>
 
         <div className="mt-12 bg-red-50 border border-red-200 rounded-lg p-6">
-          <h3 className="text-2xl font-bold text-center mb-4 text-red-800">Key Challenges</h3>
-          <ul className="grid grid-cols-1 md:grid-cols-2 gap-4 pl-6 list-disc text-red-700">
-            <li>More noise = harder to engage customers</li>
-            <li>Generic outreach solutions aren't working</li>
-            <li>Consultative selling is difficult to scale</li>
+          <h3 className="text-2xl font-bold text-center mb-4 text-red-800">It's Going to Get Worse</h3>
+          <div className="text-center mb-4">
+            <p className="text-lg text-red-900 font-medium">The auto sales landscape is rapidly deteriorating as traditional methods fail in the digital age.</p>
+          </div>
+          <ul className="grid grid-cols-1 md:grid-cols-1 gap-4 max-w-2xl mx-auto">
+            <li className="flex items-start">
+              <span className="text-red-700 font-semibold mr-2">•</span>
+              <p className="text-red-700">As digital noise increases, customer engagement rates will continue to plummet - making each lead more expensive and harder to convert</p>
+            </li>
+            <li className="flex items-start">
+              <span className="text-red-700 font-semibold mr-2">•</span>
+              <p className="text-red-700">Generic AI outreach solutions are flooding customer inboxes, creating permanent damage to your brand reputation</p>
+            </li>
+            <li className="flex items-start">
+              <span className="text-red-700 font-semibold mr-2">•</span>
+              <p className="text-red-700">The gap between what customers expect and what salespeople can deliver is widening - creating frustration on both sides</p>
+            </li>
           </ul>
         </div>
       </div>
