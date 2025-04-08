@@ -10,7 +10,7 @@ const HeroSection = () => {
             Building trust and driving volume is harder than ever for car dealers
           </h1>
           <p className="text-xl md:text-2xl mb-8 text-blue-100">
-            Engage leads that never respond. Turn browsers into buyers who arrive ready to say yes.
+            Turn browsers into buyers who arrive ready to say yes. Engage leads that never respond.
           </p>
           <div className="mb-12">
             <Button className="bg-teal-500 hover:bg-teal-600 text-lg py-6 px-8">
