@@ -60,7 +60,7 @@ const ImplementationSection = () => {
             <h3 className="text-2xl font-bold mb-4 text-center text-blue-900">Swizzl is not a chatbot. It's a discovery experience.</h3>
             <Separator className="bg-blue-300 mb-4 mx-auto w-24" />
             <p className="text-lg text-blue-800 mb-6 text-center">
-              Unlike simple chatbots, Swizzl actually conducts the initial discovery process online, helping the customer gain the confidence they need to be willing to talk to you.
+              Unlike chatbots, Swizzl actually conducts the initial discovery process online, helping the customer gain the confidence they need to be willing to talk to you.
             </p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div className="bg-white rounded-lg p-5 border border-blue-200 hover:border-blue-300 transition-colors duration-300">
