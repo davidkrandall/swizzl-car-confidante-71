@@ -42,10 +42,6 @@ const ProblemSection = () => {
           <ul className="grid grid-cols-1 md:grid-cols-1 gap-4 max-w-2xl mx-auto">
             <li className="flex items-start">
               <span className="text-gray-700 font-semibold mr-2">•</span>
-              <p className="text-gray-700">As digital noise increases, car buyer engagement rates will continue to plummet - making each dealership lead more expensive and harder to convert</p>
-            </li>
-            <li className="flex items-start">
-              <span className="text-gray-700 font-semibold mr-2">•</span>
               <p className="text-gray-700">Generic AI outreach solutions are flooding car buyers' inboxes, making customers more likely to ignore everyone's generic messages</p>
             </li>
             <li className="flex items-start">
