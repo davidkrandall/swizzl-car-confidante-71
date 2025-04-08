@@ -18,7 +18,7 @@ const TestimonialsSection = () => {
   ];
 
   const stats = [
-    { label: "10x Engagement", value: "10x", description: "" },
+    { label: "Engagement", value: "10x", description: "" },
     { label: "Avg. time on site", value: "14 min", description: "" },
     { label: "Email collection", value: "68%", description: "" },
     { label: "Avg. cars reviewed", value: "8", description: "" },
@@ -54,9 +54,6 @@ const TestimonialsSection = () => {
             </div>
           ))}
         </div>
-        <p className="text-center text-sm text-gray-500 mt-4">
-          (Note: stats based on lower-intent Facebook ads – high-intent leads perform even better.)
-        </p>
       </div>
     </section>
   );
