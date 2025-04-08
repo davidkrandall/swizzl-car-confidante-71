@@ -41,24 +41,21 @@ const TestimonialsSection = () => {
           ))}
         </div>
 
-        <div className="relative mb-12">
-          <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-teal-500 transform -skew-y-1 rounded-xl shadow-lg"></div>
-          <div className="relative py-10 px-6 rounded-xl">
-            <h3 className="text-3xl font-extrabold text-center mb-10 text-white drop-shadow-md">
-              Customers Are<span className="ml-2 text-yellow-300 animate-pulse">Responding!</span>
-            </h3>
-            
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
-              {stats.map((stat, index) => (
-                <div key={index} className="bg-white/10 backdrop-blur-sm rounded-lg p-6 text-center transform hover:scale-105 transition-transform duration-300 border border-white/20 shadow-lg">
-                  <p className="text-5xl font-bold bg-gradient-to-br from-white to-blue-200 bg-clip-text text-transparent mb-2">{stat.value}</p>
-                  <p className="text-lg font-medium text-white">{stat.label}</p>
-                  {stat.description && (
-                    <p className="text-sm text-blue-100">{stat.description}</p>
-                  )}
-                </div>
-              ))}
-            </div>
+        <div className="bg-blue-50 rounded-lg p-8 mb-12 border border-blue-200 shadow-sm">
+          <h3 className="text-2xl font-bold text-center mb-8 text-blue-700">
+            Customers Are <span className="text-blue-900">Responding</span>
+          </h3>
+          
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-3xl mx-auto">
+            {stats.map((stat, index) => (
+              <div key={index} className="bg-white rounded-lg p-5 text-center shadow-sm border border-blue-100 transition-all duration-300 hover:shadow-md">
+                <p className="text-4xl font-bold text-blue-600 mb-2">{stat.value}</p>
+                <p className="text-gray-700 font-medium">{stat.label}</p>
+                {stat.description && (
+                  <p className="text-sm text-gray-500">{stat.description}</p>
+                )}
+              </div>
+            ))}
           </div>
         </div>
       </div>
