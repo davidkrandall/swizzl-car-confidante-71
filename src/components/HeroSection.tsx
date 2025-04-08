@@ -23,7 +23,7 @@ const HeroSection = () => {
               "We have huge gaps in this today and Swizzl is the only solution I've seen that could have a real impact on our most important metrics."
             </blockquote>
             <p className="mt-4 font-semibold">
-              — Steve Brown, GM at US Auto Trust
+              — Steve, GM at a Major Dealer Chain
             </p>
           </div>
         </div>
