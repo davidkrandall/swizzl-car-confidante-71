@@ -18,8 +18,8 @@ const TestimonialsSection = () => {
   ];
 
   const stats = [
-    { label: "Facebook Ad Clicks", value: "10x", description: "industry average" },
-    { label: "Avg. time on site", value: "14", description: "minutes" },
+    { label: "10x Engagement", value: "10x", description: "" },
+    { label: "Avg. time on site", value: "14 min", description: "" },
     { label: "Email collection", value: "68%", description: "" },
     { label: "Avg. cars reviewed", value: "8", description: "" },
   ];
