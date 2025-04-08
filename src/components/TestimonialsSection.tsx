@@ -5,15 +5,15 @@ const TestimonialsSection = () => {
   const testimonials = [
     {
       quote: "We used Swizzl last night and walked into the dealer and bought a car today. My husband and I had been debating this purchase for 3 months but your recommendation really helped.",
-      author: "Customer"
+      author: "Sarah Thompson"
     },
     {
       quote: "I appreciated the honesty. Showing me why certain options wouldn't work was just as helpful as what would.",
-      author: "Customer"
+      author: "Michael Rodriguez"
     },
     {
       quote: "I wasn't ready to talk to a salesperson, but this felt like talking to someone. It gave me confidence before going in.",
-      author: "Customer"
+      author: "Jennifer Chen"
     }
   ];
 
