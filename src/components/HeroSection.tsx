@@ -7,7 +7,7 @@ const HeroSection = () => {
       <div className="container mx-auto">
         <div className="max-w-3xl mx-auto text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-6">
-            The ultimate customer trust and discovery tool
+            The ultimate trust and discovery tool for car dealers
           </h1>
           <p className="text-xl md:text-2xl mb-8 text-blue-100">
             Engage leads that never respond. Turn browsers into buyers who arrive ready to say yes.
