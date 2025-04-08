@@ -17,43 +17,48 @@ const ImplementationSection = () => {
         <div className="max-w-4xl mx-auto">
           <h2 className="text-3xl font-bold text-center mb-10 text-gray-900">Easy Implementation For Auto Dealerships</h2>
           
-          <div className="bg-white rounded-lg shadow-md border border-blue-100 p-6 mb-12 hover:shadow-lg transition-shadow duration-300">
-            <ul className="space-y-3 text-gray-700">
-              <li className="flex items-start">
-                <div className="w-6 h-6 bg-teal-500 bg-opacity-10 rounded-full flex items-center justify-center mr-3 mt-0.5">
-                  <span className="text-teal-500 font-bold text-sm">✓</span>
+          <div className="bg-white rounded-lg shadow-md border border-blue-100 mb-12 hover:shadow-lg transition-shadow duration-300">
+            <div className="p-6">
+              <div className="flex flex-col md:flex-row">
+                <div className="md:w-1/2 mb-6 md:mb-0 md:pr-6">
+                  <ul className="space-y-3 text-gray-700">
+                    <li className="flex items-start">
+                      <div className="w-6 h-6 bg-teal-500 bg-opacity-10 rounded-full flex items-center justify-center mr-3 mt-0.5">
+                        <span className="text-teal-500 font-bold text-sm">✓</span>
+                      </div>
+                      <span>Insert Swizzl link into your dealership's outbound message</span>
+                    </li>
+                    <li className="flex items-start">
+                      <div className="w-6 h-6 bg-teal-500 bg-opacity-10 rounded-full flex items-center justify-center mr-3 mt-0.5">
+                        <span className="text-teal-500 font-bold text-sm">✓</span>
+                      </div>
+                      <span>Your dealership controls when it's sent</span>
+                    </li>
+                    <li className="flex items-start">
+                      <div className="w-6 h-6 bg-teal-500 bg-opacity-10 rounded-full flex items-center justify-center mr-3 mt-0.5">
+                        <span className="text-teal-500 font-bold text-sm">✓</span>
+                      </div>
+                      <span>We send enriched car buyer data back to your dealership CRM</span>
+                    </li>
+                    <li className="flex items-start">
+                      <div className="w-6 h-6 bg-teal-500 bg-opacity-10 rounded-full flex items-center justify-center mr-3 mt-0.5">
+                        <span className="text-teal-500 font-bold text-sm">✓</span>
+                      </div>
+                      <span>Sales people love it</span>
+                    </li>
+                  </ul>
                 </div>
-                <span>Insert Swizzl link into your dealership's outbound message</span>
-              </li>
-              <li className="flex items-start">
-                <div className="w-6 h-6 bg-teal-500 bg-opacity-10 rounded-full flex items-center justify-center mr-3 mt-0.5">
-                  <span className="text-teal-500 font-bold text-sm">✓</span>
+                
+                <div className="md:w-1/2 bg-gray-100 rounded-lg p-4 border border-gray-200">
+                  <p className="font-medium mb-3 text-gray-700">Example Dealership Message:</p>
+                  <div className="bg-white p-4 rounded-lg border border-gray-300 shadow-sm space-y-2 max-w-xs mx-auto">
+                    <p>Hi Jane!</p>
+                    <p>Have you decided on a vehicle? If so, let's chat.</p>
+                    <p>Not sure? Our 10-min Assessment <span className="text-blue-600 font-medium">aa12.szl.ai</span> finds YOUR perfect car match. FREE. No bias.</p>
+                    <p>Questions? I'm here!</p>
+                    <p>– Cindy at US Car Dealer</p>
+                  </div>
                 </div>
-                <span>Your dealership controls when it's sent</span>
-              </li>
-              <li className="flex items-start">
-                <div className="w-6 h-6 bg-teal-500 bg-opacity-10 rounded-full flex items-center justify-center mr-3 mt-0.5">
-                  <span className="text-teal-500 font-bold text-sm">✓</span>
-                </div>
-                <span>We send enriched car buyer data back to your dealership CRM</span>
-              </li>
-              <li className="flex items-start">
-                <div className="w-6 h-6 bg-teal-500 bg-opacity-10 rounded-full flex items-center justify-center mr-3 mt-0.5">
-                  <span className="text-teal-500 font-bold text-sm">✓</span>
-                </div>
-                <span>Sales people love it</span>
-              </li>
-            </ul>
-            
-            <div className="mt-8 bg-blue-50 p-6 rounded-lg border border-blue-100">
-              <p className="font-medium mb-2">Example Dealership Message:</p>
-              <div className="space-y-2">
-                <p>Hi Jane!</p>
-                <p>Have you decided on a vehicle? If so, let's chat.</p>
-                <p>Not sure? Our 10-min assessment finds YOUR perfect car match. FREE. No bias.</p>
-                <p>Questions? I'm here!</p>
-                <p>– Cindy at US Car Dealer</p>
-                <p className="text-blue-600 font-medium">aa12.szl.ai</p>
               </div>
             </div>
           </div>
