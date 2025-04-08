@@ -54,6 +54,22 @@ const ProblemSection = () => {
             </li>
           </ul>
         </div>
+
+        {/* Demo Section */}
+        <div className="mt-12 bg-blue-50 border border-blue-200 rounded-lg p-6 shadow-md">
+          <h3 className="text-2xl font-bold text-center mb-6 text-blue-800">See Swizzl in Action</h3>
+          <div className="aspect-video max-w-3xl mx-auto">
+            <iframe
+              src="https://www.loom.com/embed/3edc225018a641c68f747931f04c602b?sid=5359d804-ea0c-4a9b-9beb-623e984564f6"
+              frameBorder="0"
+              allowFullScreen
+              className="w-full h-full rounded-lg shadow-lg"
+            ></iframe>
+          </div>
+          <div className="text-center mt-6">
+            <p className="text-lg text-blue-700 font-medium">Watch how Swizzl transforms dealership lead engagement and improves customer experience</p>
+          </div>
+        </div>
       </div>
     </section>
   );
