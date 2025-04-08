@@ -59,6 +59,41 @@ const ImplementationSection = () => {
               </div>
             ))}
           </div>
+          
+          <div className="bg-blue-50 rounded-lg p-8 border border-blue-100 mb-10">
+            <h3 className="text-2xl font-bold mb-6 text-center text-blue-900">Not Just Another Auto Sales Chatbot</h3>
+            <p className="text-lg text-blue-800 mb-6 text-center">
+              Unlike simple chatbots or sales training programs, Swizzl actually conducts the initial auto sales process online.
+            </p>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <div className="bg-white rounded-lg p-5 border border-blue-200">
+                <h4 className="font-bold text-blue-800 mb-3">Meaningful Car Buying Conversations</h4>
+                <ul className="space-y-2">
+                  <li className="flex items-start">
+                    <span className="text-teal-500 font-bold mr-2">✓</span>
+                    <span>Discovers true vehicle needs and preferences</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-teal-500 font-bold mr-2">✓</span>
+                    <span>Addresses concerns before showroom visits</span>
+                  </li>
+                </ul>
+              </div>
+              <div className="bg-white rounded-lg p-5 border border-blue-200">
+                <h4 className="font-bold text-blue-800 mb-3">Actionable Results for Dealerships</h4>
+                <ul className="space-y-2">
+                  <li className="flex items-start">
+                    <span className="text-teal-500 font-bold mr-2">✓</span>
+                    <span>Pre-qualifies genuinely ready car buyers</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-teal-500 font-bold mr-2">✓</span>
+                    <span>Creates detailed buyer profiles your dealership team can act on</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
