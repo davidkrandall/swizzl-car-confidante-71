@@ -2,24 +2,6 @@
 import { Card, CardContent } from "@/components/ui/card";
 
 const ProblemSection = () => {
-  const problems = [
-    {
-      title: "Car dealers can't gain buyer trust",
-      stat: "75%",
-      description: "of car buyers do not trust dealership salespeople to tell the truth about their vehicles."
-    },
-    {
-      title: "Car buyers want to figure it out themselves",
-      stat: "87%",
-      description: "of auto buyers want to self-serve part or all of their journey before talking to a dealership."
-    },
-    {
-      title: "Car buyer confidence is dropping",
-      stat: "59%",
-      description: "of auto buyers feel less confident in their purchase decisions when relying solely on online resources."
-    }
-  ];
-
   const painPoints = [
     {
       title: "Your dealership can't engage most leads",
@@ -42,20 +24,6 @@ const ProblemSection = () => {
   return (
     <section className="py-16 px-4 sm:px-6 lg:px-8 bg-gray-50" id="problem">
       <div className="container mx-auto">
-        <h2 className="text-3xl font-bold text-center mb-12 text-gray-900">The Auto Sales Landscape</h2>
-        
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
-          {problems.map((problem, index) => (
-            <Card key={index} className="border-t-4 border-t-blue-700">
-              <CardContent className="pt-6">
-                <h3 className="text-xl font-semibold mb-2">{problem.title}</h3>
-                <p className="text-4xl font-bold text-blue-700 mb-2">{problem.stat}</p>
-                <p className="text-gray-600">{problem.description}</p>
-              </CardContent>
-            </Card>
-          ))}
-        </div>
-
         <h2 className="text-3xl font-bold text-center mb-8 text-gray-900">The Result for Car Dealerships</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {painPoints.map((point, index) => (
