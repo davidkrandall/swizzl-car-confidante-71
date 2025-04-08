@@ -46,7 +46,7 @@ const ProblemSection = () => {
             </li>
             <li className="flex items-start">
               <span className="text-gray-700 font-semibold mr-2">•</span>
-              <p className="text-gray-700">The gap between what auto customers expect and what dealership salespeople can deliver is widening - creating frustration on both sides</p>
+              <p className="text-gray-700">It's becoming harder to recruit and train salespeople who can man the phones and provide a brand right consultative sales experience for your customers</p>
             </li>
           </ul>
         </div>
