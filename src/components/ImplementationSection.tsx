@@ -4,13 +4,6 @@ import { ArrowRight } from "lucide-react";
 import { Separator } from "@/components/ui/separator";
 
 const ImplementationSection = () => {
-  const steps = [
-    "Car buyer lead hits your dealership CRM",
-    "Swizzl link sent",
-    "Car buyer interacts",
-    "Enriched vehicle profile goes to sales team"
-  ];
-
   return (
     <section className="py-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-blue-50 to-white">
       <div className="container mx-auto">
@@ -60,23 +53,6 @@ const ImplementationSection = () => {
                   </div>
                 </div>
               </div>
-            </div>
-          </div>
-          
-          <h3 className="text-2xl font-bold text-center mb-8 text-gray-900">How It Works For Car Dealers</h3>
-          <div className="bg-white rounded-lg shadow-md border border-blue-100 p-6 mb-12">
-            <div className="flex flex-col md:flex-row justify-between items-center">
-              {steps.map((step, index) => (
-                <div key={index} className="flex items-center mb-4 md:mb-0 group">
-                  <div className="bg-blue-700 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold text-sm mr-3 group-hover:bg-blue-600 transition-colors duration-300">
-                    {index + 1}
-                  </div>
-                  <div className="text-gray-700">{step}</div>
-                  {index < steps.length - 1 && (
-                    <ArrowRight className="mx-3 text-blue-400 hidden md:block transition-transform duration-300 group-hover:translate-x-1" />
-                  )}
-                </div>
-              ))}
             </div>
           </div>
           
