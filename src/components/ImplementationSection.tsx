@@ -63,7 +63,7 @@ const ImplementationSection = () => {
           <div className="bg-blue-50 rounded-lg p-8 border border-blue-100 mb-10">
             <h3 className="text-2xl font-bold mb-6 text-center text-blue-900">Not Just Another Auto Sales Chatbot</h3>
             <p className="text-lg text-blue-800 mb-6 text-center">
-              Unlike simple chatbots or sales training programs, Swizzl actually conducts the initial auto sales process online.
+              Unlike simple chatbots, Swizzl actually conducts the initial auto sales process online.
             </p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div className="bg-white rounded-lg p-5 border border-blue-200">
