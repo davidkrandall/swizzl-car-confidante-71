@@ -46,7 +46,7 @@ const ProblemSection = () => {
             </li>
             <li className="flex items-start">
               <span className="text-gray-700 font-semibold mr-2">•</span>
-              <p className="text-gray-700">Generic AI outreach solutions are flooding car buyers' inboxes, creating permanent damage to your dealership's brand reputation</p>
+              <p className="text-gray-700">Generic AI outreach solutions are flooding car buyers' inboxes, making customers more likely to ignore everyone's generic messages</p>
             </li>
             <li className="flex items-start">
               <span className="text-gray-700 font-semibold mr-2">•</span>
