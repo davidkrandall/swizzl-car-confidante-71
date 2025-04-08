@@ -34,23 +34,23 @@ const ProblemSection = () => {
           ))}
         </div>
 
-        <div className="mt-12 bg-red-50 border border-red-200 rounded-lg p-6">
-          <h3 className="text-2xl font-bold text-center mb-4 text-red-800">It's Getting Worse</h3>
+        <div className="mt-12 bg-gray-100 border border-gray-300 rounded-lg p-6">
+          <h3 className="text-2xl font-bold text-center mb-4 text-gray-800">It's Getting Worse</h3>
           <div className="text-center mb-4">
-            <p className="text-lg text-red-900 font-medium">The auto dealership sales landscape is rapidly deteriorating as traditional methods fail in the digital age.</p>
+            <p className="text-lg text-gray-700 font-medium">The auto dealership sales landscape is rapidly deteriorating as traditional methods fail in the digital age.</p>
           </div>
           <ul className="grid grid-cols-1 md:grid-cols-1 gap-4 max-w-2xl mx-auto">
             <li className="flex items-start">
-              <span className="text-red-700 font-semibold mr-2">•</span>
-              <p className="text-red-700">As digital noise increases, car buyer engagement rates will continue to plummet - making each dealership lead more expensive and harder to convert</p>
+              <span className="text-gray-700 font-semibold mr-2">•</span>
+              <p className="text-gray-700">As digital noise increases, car buyer engagement rates will continue to plummet - making each dealership lead more expensive and harder to convert</p>
             </li>
             <li className="flex items-start">
-              <span className="text-red-700 font-semibold mr-2">•</span>
-              <p className="text-red-700">Generic AI outreach solutions are flooding car buyers' inboxes, creating permanent damage to your dealership's brand reputation</p>
+              <span className="text-gray-700 font-semibold mr-2">•</span>
+              <p className="text-gray-700">Generic AI outreach solutions are flooding car buyers' inboxes, creating permanent damage to your dealership's brand reputation</p>
             </li>
             <li className="flex items-start">
-              <span className="text-red-700 font-semibold mr-2">•</span>
-              <p className="text-red-700">The gap between what auto customers expect and what dealership salespeople can deliver is widening - creating frustration on both sides</p>
+              <span className="text-gray-700 font-semibold mr-2">•</span>
+              <p className="text-gray-700">The gap between what auto customers expect and what dealership salespeople can deliver is widening - creating frustration on both sides</p>
             </li>
           </ul>
         </div>
