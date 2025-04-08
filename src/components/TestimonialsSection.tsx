@@ -21,7 +21,6 @@ const TestimonialsSection = () => {
     { label: "Engagement", value: "10x", description: "" },
     { label: "Avg. time on site", value: "14 min", description: "" },
     { label: "Email collection", value: "68%", description: "" },
-    { label: "Avg. cars reviewed", value: "8", description: "" },
   ];
 
   return (
@@ -43,7 +42,7 @@ const TestimonialsSection = () => {
         </div>
 
         <h3 className="text-2xl font-bold text-center mb-8 text-gray-900">Customers Are Responding</h3>
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-3xl mx-auto">
+        <div className="grid grid-cols-3 gap-6 max-w-2xl mx-auto">
           {stats.map((stat, index) => (
             <div key={index} className="text-center p-4">
               <p className="text-3xl font-bold text-blue-700">{stat.value}</p>
