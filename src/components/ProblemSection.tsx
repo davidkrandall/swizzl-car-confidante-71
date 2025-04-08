@@ -67,7 +67,7 @@ const ProblemSection = () => {
         </div>
 
         <div className="mt-12 bg-red-50 border border-red-200 rounded-lg p-6">
-          <h3 className="text-2xl font-bold text-center mb-4 text-red-800">It's Going to Get Worse</h3>
+          <h3 className="text-2xl font-bold text-center mb-4 text-red-800">It's Getting Worse</h3>
           <div className="text-center mb-4">
             <p className="text-lg text-red-900 font-medium">The auto sales landscape is rapidly deteriorating as traditional methods fail in the digital age.</p>
           </div>
