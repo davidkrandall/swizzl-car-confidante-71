@@ -67,13 +67,11 @@ const ProblemSection = () => {
         </div>
 
         <div className="mt-12 bg-red-50 border border-red-200 rounded-lg p-6">
-          <h3 className="text-2xl font-bold text-center mb-4 text-red-800">It's Getting Worse</h3>
-          <ul className="list-disc pl-6 space-y-2 text-red-700">
-            <li>More noise = harder to get customers to engage</li>
-            <li>Salespeople struggle to take a consultative approach</li>
-            <li>Current solutions like AI/BDCs for generic outreach aren't working</li>
-            <li>Hiring salespeople like call center reps isn't solving the problem</li>
-            <li>More of the same isn't working</li>
+          <h3 className="text-2xl font-bold text-center mb-4 text-red-800">Key Challenges</h3>
+          <ul className="grid grid-cols-1 md:grid-cols-2 gap-4 pl-6 list-disc text-red-700">
+            <li>More noise = harder to engage customers</li>
+            <li>Generic outreach solutions aren't working</li>
+            <li>Consultative selling is difficult to scale</li>
           </ul>
         </div>
       </div>
