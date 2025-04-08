@@ -1,6 +1,7 @@
 
 import { Card, CardContent } from "@/components/ui/card";
 import { ArrowRight } from "lucide-react";
+import { Separator } from "@/components/ui/separator";
 
 const ImplementationSection = () => {
   const steps = [
@@ -11,28 +12,34 @@ const ImplementationSection = () => {
   ];
 
   return (
-    <section className="py-16 px-4 sm:px-6 lg:px-8 bg-gray-50">
+    <section className="py-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-blue-50 to-white">
       <div className="container mx-auto">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-3xl font-bold text-center mb-12 text-gray-900">Easy Implementation For Auto Dealerships</h2>
+          <h2 className="text-3xl font-bold text-center mb-10 text-gray-900">Easy Implementation For Auto Dealerships</h2>
           
-          <div className="bg-white rounded-lg shadow-sm border border-gray-200 p-6 mb-12">
+          <div className="bg-white rounded-lg shadow-md border border-blue-100 p-6 mb-12 hover:shadow-lg transition-shadow duration-300">
             <ul className="space-y-3 text-gray-700">
               <li className="flex items-start">
-                <span className="text-teal-500 font-bold mr-2">✓</span>
+                <div className="w-6 h-6 bg-teal-500 bg-opacity-10 rounded-full flex items-center justify-center mr-3 mt-0.5">
+                  <span className="text-teal-500 font-bold text-sm">✓</span>
+                </div>
                 <span>Insert Swizzl link into your dealership's outbound message</span>
               </li>
               <li className="flex items-start">
-                <span className="text-teal-500 font-bold mr-2">✓</span>
+                <div className="w-6 h-6 bg-teal-500 bg-opacity-10 rounded-full flex items-center justify-center mr-3 mt-0.5">
+                  <span className="text-teal-500 font-bold text-sm">✓</span>
+                </div>
                 <span>Your dealership controls when it's sent</span>
               </li>
               <li className="flex items-start">
-                <span className="text-teal-500 font-bold mr-2">✓</span>
+                <div className="w-6 h-6 bg-teal-500 bg-opacity-10 rounded-full flex items-center justify-center mr-3 mt-0.5">
+                  <span className="text-teal-500 font-bold text-sm">✓</span>
+                </div>
                 <span>We send enriched car buyer data back to your dealership CRM</span>
               </li>
             </ul>
             
-            <div className="mt-8 bg-gray-50 p-6 rounded-lg border border-dashed border-gray-300">
+            <div className="mt-8 bg-blue-50 p-6 rounded-lg border border-blue-100">
               <p className="font-medium mb-2">Example Dealership Message:</p>
               <div className="space-y-2">
                 <p>Hi Jane!</p>
@@ -46,48 +53,59 @@ const ImplementationSection = () => {
           </div>
           
           <h3 className="text-2xl font-bold text-center mb-8 text-gray-900">How It Works For Car Dealers</h3>
-          <div className="flex flex-col md:flex-row justify-between items-center mb-12">
-            {steps.map((step, index) => (
-              <div key={index} className="flex items-center mb-4 md:mb-0">
-                <div className="bg-blue-700 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold text-sm mr-3">
-                  {index + 1}
+          <div className="bg-white rounded-lg shadow-md border border-blue-100 p-6 mb-12">
+            <div className="flex flex-col md:flex-row justify-between items-center">
+              {steps.map((step, index) => (
+                <div key={index} className="flex items-center mb-4 md:mb-0 group">
+                  <div className="bg-blue-700 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold text-sm mr-3 group-hover:bg-blue-600 transition-colors duration-300">
+                    {index + 1}
+                  </div>
+                  <div className="text-gray-700">{step}</div>
+                  {index < steps.length - 1 && (
+                    <ArrowRight className="mx-3 text-blue-400 hidden md:block transition-transform duration-300 group-hover:translate-x-1" />
+                  )}
                 </div>
-                <div className="text-gray-700">{step}</div>
-                {index < steps.length - 1 && (
-                  <ArrowRight className="mx-3 text-gray-400 hidden md:block" />
-                )}
-              </div>
-            ))}
+              ))}
+            </div>
           </div>
           
-          <div className="bg-blue-50 rounded-lg p-8 border border-blue-100 mb-10">
-            <h3 className="text-2xl font-bold mb-6 text-center text-blue-900">Not Just Another Auto Sales Chatbot</h3>
+          <div className="bg-gradient-to-br from-blue-50 to-blue-100 rounded-lg p-8 border border-blue-200 mb-10 shadow-md hover:shadow-lg transition-shadow duration-300">
+            <h3 className="text-2xl font-bold mb-4 text-center text-blue-900">Not Just Another Auto Sales Chatbot</h3>
+            <Separator className="bg-blue-300 mb-4 mx-auto w-24" />
             <p className="text-lg text-blue-800 mb-6 text-center">
               Unlike simple chatbots, Swizzl actually conducts the initial auto sales process online.
             </p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              <div className="bg-white rounded-lg p-5 border border-blue-200">
+              <div className="bg-white rounded-lg p-5 border border-blue-200 hover:border-blue-300 transition-colors duration-300">
                 <h4 className="font-bold text-blue-800 mb-3">Meaningful Car Buying Conversations</h4>
                 <ul className="space-y-2">
                   <li className="flex items-start">
-                    <span className="text-teal-500 font-bold mr-2">✓</span>
+                    <div className="w-5 h-5 bg-teal-500 bg-opacity-10 rounded-full flex items-center justify-center mr-2 mt-0.5">
+                      <span className="text-teal-500 font-bold text-xs">✓</span>
+                    </div>
                     <span>Discovers true vehicle needs and preferences</span>
                   </li>
                   <li className="flex items-start">
-                    <span className="text-teal-500 font-bold mr-2">✓</span>
+                    <div className="w-5 h-5 bg-teal-500 bg-opacity-10 rounded-full flex items-center justify-center mr-2 mt-0.5">
+                      <span className="text-teal-500 font-bold text-xs">✓</span>
+                    </div>
                     <span>Addresses concerns before showroom visits</span>
                   </li>
                 </ul>
               </div>
-              <div className="bg-white rounded-lg p-5 border border-blue-200">
+              <div className="bg-white rounded-lg p-5 border border-blue-200 hover:border-blue-300 transition-colors duration-300">
                 <h4 className="font-bold text-blue-800 mb-3">Actionable Results for Dealerships</h4>
                 <ul className="space-y-2">
                   <li className="flex items-start">
-                    <span className="text-teal-500 font-bold mr-2">✓</span>
+                    <div className="w-5 h-5 bg-teal-500 bg-opacity-10 rounded-full flex items-center justify-center mr-2 mt-0.5">
+                      <span className="text-teal-500 font-bold text-xs">✓</span>
+                    </div>
                     <span>Pre-qualifies genuinely ready car buyers</span>
                   </li>
                   <li className="flex items-start">
-                    <span className="text-teal-500 font-bold mr-2">✓</span>
+                    <div className="w-5 h-5 bg-teal-500 bg-opacity-10 rounded-full flex items-center justify-center mr-2 mt-0.5">
+                      <span className="text-teal-500 font-bold text-xs">✓</span>
+                    </div>
                     <span>Creates detailed buyer profiles your dealership team can act on</span>
                   </li>
                 </ul>
