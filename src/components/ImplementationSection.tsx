@@ -15,26 +15,26 @@ const ImplementationSection = () => {
               <div className="flex flex-col md:flex-row">
                 <div className="md:w-1/2 mb-6 md:mb-0 md:pr-6">
                   <ul className="space-y-3 text-gray-700">
-                    <li className="flex items-start">
-                      <div className="w-6 h-6 bg-teal-500 bg-opacity-10 rounded-full flex items-center justify-center mr-3 mt-0.5">
+                    <li className="flex items-center">
+                      <div className="flex-shrink-0 w-6 h-6 bg-teal-500 bg-opacity-10 rounded-full flex items-center justify-center mr-3">
                         <span className="text-teal-500 font-bold text-sm">✓</span>
                       </div>
                       <span>Insert Swizzl link into your dealership's outbound message</span>
                     </li>
-                    <li className="flex items-start">
-                      <div className="w-6 h-6 bg-teal-500 bg-opacity-10 rounded-full flex items-center justify-center mr-3 mt-0.5">
+                    <li className="flex items-center">
+                      <div className="flex-shrink-0 w-6 h-6 bg-teal-500 bg-opacity-10 rounded-full flex items-center justify-center mr-3">
                         <span className="text-teal-500 font-bold text-sm">✓</span>
                       </div>
                       <span>Your dealership controls when it's sent</span>
                     </li>
-                    <li className="flex items-start">
-                      <div className="w-6 h-6 bg-teal-500 bg-opacity-10 rounded-full flex items-center justify-center mr-3 mt-0.5">
+                    <li className="flex items-center">
+                      <div className="flex-shrink-0 w-6 h-6 bg-teal-500 bg-opacity-10 rounded-full flex items-center justify-center mr-3">
                         <span className="text-teal-500 font-bold text-sm">✓</span>
                       </div>
                       <span>We send enriched car buyer data back to your dealership CRM</span>
                     </li>
-                    <li className="flex items-start">
-                      <div className="w-6 h-6 bg-teal-500 bg-opacity-10 rounded-full flex items-center justify-center mr-3 mt-0.5">
+                    <li className="flex items-center">
+                      <div className="flex-shrink-0 w-6 h-6 bg-teal-500 bg-opacity-10 rounded-full flex items-center justify-center mr-3">
                         <span className="text-teal-500 font-bold text-sm">✓</span>
                       </div>
                       <span>Sales people love it</span>
