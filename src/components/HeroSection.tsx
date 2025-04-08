@@ -14,7 +14,7 @@ const HeroSection = () => {
           </p>
           <div className="mb-12">
             <Button className="bg-teal-500 hover:bg-teal-600 text-lg py-6 px-8">
-              Get a Demo
+              Book a Demo
             </Button>
           </div>
           
