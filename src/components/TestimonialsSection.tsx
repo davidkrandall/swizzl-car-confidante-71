@@ -4,15 +4,15 @@ import { Card, CardContent } from "@/components/ui/card";
 const TestimonialsSection = () => {
   const testimonials = [
     {
-      quote: "We used Swizzl last night and walked into the dealer and bought a car today. My husband and I had been debating this purchase for 3 months but your recommendation really helped.",
+      quote: "We used Swizzl last night and walked into the dealers and bought a car today. My husband and I had been debating this purchase for 3 months but your recommendation really did help sell me on the final decision.",
       author: "Sarah Thompson"
     },
     {
-      quote: "I appreciated the honesty. Showing me why certain options wouldn't work was just as helpful as what would.",
+      quote: "I appreciated the honesty. Showing me why certain options wouldn't work for my needs was just as helpful as the recommendations. The \"gap\" it showed me based on my needs showed me that I could trust what it was saying.",
       author: "Michael Rodriguez"
     },
     {
-      quote: "I wasn't ready to talk to a salesperson, but this felt like talking to someone. It gave me confidence before going in.",
+      quote: "I wasn't ready to talk to a salesperson but I was willing to work with this. It asked me really good questions and it oddly felt like I was talking to someone. It helped me gain the confidence I needed before walking into a dealer.",
       author: "Jennifer Chen"
     }
   ];
